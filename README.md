@@ -226,7 +226,7 @@ Each level change is subject to a **cost** which is defined by the following fun
 
 $$
 \begin{align*}
-f(x) = 1.36 * level + 2.05
+f(x) = 1.36 * x + 2.05
 \end{align*}
 $$
 
@@ -242,7 +242,7 @@ Each level passage also allows the token to **increase** its emissions per day, 
 
 $$
 \begin{align*}
-f(x) = 0.216334 * level + K \\
+f(x) = 0.216334 * x + K \\
 tier 1 : K = 0.6833 \\
 tier 2 : K = 2.1833 \\
 tier 3 : K = 3.6833 \\
@@ -275,7 +275,7 @@ Each passage of level thus also allows the token to **increase** its cap of emis
 
 $$
 \begin{align*}
-f(x) = 1.4729 * level + K \\			
+f(x) = 1.4729 * x + K \\			
 tier 1 : K = 0.6833 \\
 tier 2 : K = 4.4375 \\
 tier 3 : K = 8.18125 \\
