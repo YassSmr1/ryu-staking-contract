@@ -284,11 +284,11 @@ $$
 
 By calculating the sum of the terms of this sequence, we obtain the total gain per NFT of : 7117,98075 $nRyu
 
-The number of tokens distributed will therefore be obtained via the function :
+The number of tokens distributed will therefore be obtained via the function, where x is the RyuGen2 Supply :
 
 $$
 \begin{align*}
-f(x) = 7117.98075 * RyuGen2Supply
+f(x) = 7117.98075 * x
 \end{align*}
 $$
 
